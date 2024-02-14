@@ -1,9 +1,22 @@
 .nav-tabs {
-    text-align: center;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .nav-item {
     font-size: 30px;
     margin: 20px;
     display: inline;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
 }
