@@ -40,6 +40,12 @@ h2 {
     border-radius: 30px;
     height: 200px;
     width: 360px;
+    transition: border 0.3s;
+    border: 5px solid transparent;
+}
+
+.imgs-home:hover {
+  border-color: gray;
 }
 
 /* ABOUT ME */
