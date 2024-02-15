@@ -38,14 +38,17 @@ const Portfolio = () => {
             <ProjectLeft
                 image="/assets/blog.png"
                 title="Blog!"
-                description="This is the first project.
-                It is a simple project that demonstrates the use of HTML, CSS, and JavaScript.
-                It is a simple project that demonstrates the use of HTML, CSS, and JavaScript.
-                It is a simple project that demonstrates the use of HTML, CSS, and JavaScript.
-                It is a simple project that demonstrates the use of HTML, CSS, and JavaScript.
-                It is a simple project that demonstrates the use of HTML, CSS, and JavaScript."
-                siteUrl="https://www.example.com"
-                repoUrl="https://www.github.com"
+                description="
+                Welcome to Blog!, where expressing your thoughts and engaging with a community of like-minded individuals 
+                is made effortlessly accessible. Built on a foundation of robust technologies including Node.js, Express.js, and 
+                Express-Handlebars, this platform empowers users to create a personalized account, craft and publish blog posts, 
+                and seamlessly manage their content with easy editing and deletion options. The integration of Bootstrap ensures 
+                a visually appealing and responsive design, while Express-Session ensures a secure and user-friendly authentication 
+                process. Leveraging the power of MySQL and Sequelize for database management, along with Bcrypt for enhanced security, 
+                Blog! offers a dynamic space for sharing ideas and fostering discussions through user-friendly functionalities 
+                and a welcoming environment. This application was a solo project, entierly developed and crafted by myself."
+                siteUrl="https://blogs2699-da34bb89b786.herokuapp.com/home"
+                repoUrl="https://github.com/dakotablanchard/blog-site"
             />
         </div>
     );
