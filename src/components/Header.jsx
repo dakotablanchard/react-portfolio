@@ -1,4 +1,4 @@
-
+import { Parallax } from 'react-parallax';
 
 const Header = ({ pageTitle }) => {
     if (pageTitle === 'Home') {
