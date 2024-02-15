@@ -3,6 +3,11 @@ body {
     padding: 0;
 }
 
+h2 {
+    margin: 5px;
+}
+
+/* HOME */
 .skills {
     display: flex;
     justify-content: center;
@@ -35,4 +40,18 @@ body {
     border-radius: 30px;
     height: 200px;
     width: 360px;
+}
+
+/* ABOUT ME */
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
 }

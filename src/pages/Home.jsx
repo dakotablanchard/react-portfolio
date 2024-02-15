@@ -27,7 +27,7 @@ const Home = () => {
                 </div>
             </section>
             <section className="recent-work-home">
-                <h2>Recent Work</h2>
+                <h1>Recent Work</h1>
                 <div className='work-container'>
                 <img className='imgs-home' src="/assets/rooms.png" alt="rooms" />
                 <img className='imgs-home' src="/assets/trip-planner.png" alt="rooms" />
