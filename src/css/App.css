@@ -1,5 +1,38 @@
-
 body {
     margin: 0;
     padding: 0;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#front-end,  #back-end, #results {
+    margin : 30px;
+    text-align: left;
+}
+
+.recent-work-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+.work-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+}
+
+.imgs-home {
+    margin: 30px;
+    border-radius: 30px;
+    height: 200px;
+    width: 360px;
 }
