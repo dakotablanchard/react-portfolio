@@ -29,9 +29,22 @@ const Home = () => {
             <section className="recent-work-home">
                 <h1>Recent Work</h1>
                 <div className='work-container'>
-                <img className='imgs-home' src="/assets/rooms.png" alt="rooms" />
-                <img className='imgs-home' src="/assets/trip-planner.png" alt="rooms" />
-                <img className='imgs-home' src="/assets/blog.png" alt="rooms" />
+                    <div>
+                        <a href="https://rooms-3226fb27d847.herokuapp.com/login">
+                            <img className='imgs-home' src="/assets/rooms.png" alt="rooms" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://dakotablanchard.github.io/trip-planner/">
+                            <img className='imgs-home' src="/assets/trip-planner.png" alt="trip-planner" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://blogs2699-da34bb89b786.herokuapp.com/home">
+                            <img className='imgs-home' src="/assets/blog.png" alt="blog" />
+                        </a>
+                    </div>
+
                 </div>
             </section>
         </div>
