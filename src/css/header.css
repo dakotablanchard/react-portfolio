@@ -7,3 +7,32 @@
     background-position: center;
     overflow: hidden;
 }
+
+h1{
+    font-size: 70px;
+}
+
+.pageTitle {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+    margin-top: 150px;
+    color: white;
+}
+
+.hello {
+    font-size: 70px;
+    margin: 0;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 90px;
+    margin: 0;
+}
+
+.job {
+    font-size: 30px;
+    margin: 0;
+}

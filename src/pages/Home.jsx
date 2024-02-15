@@ -4,7 +4,7 @@ import  '../css/header.css';
 const Home = () => {
     return (
         <div>
-            <Header />
+        
         </div>
     );
 };
