@@ -1,0 +1,32 @@
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.port-image {
+    margin: 30px;
+    border-radius: 30px;
+    height: 300px;
+    width: 460px;
+}
+
+#view-site, #github {
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: gray;
+    border-radius: 10px;
+}
+
+#description {
+    margin: 20px;
+}

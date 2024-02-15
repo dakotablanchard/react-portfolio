@@ -1,11 +1,31 @@
+import '../css/project.css';
 
-const Project = ({ project }) => {
+const ProjectLeft = ({ image, title, description, siteUrl, repoUrl }) => {
   return (
-    <div>
-      <h2>{project.title}</h2>
-      <p>{project.description}</p>
+    <div className="project">
+      <img className='port-image' src={image} alt={title} />
+      <div className='project-content'>
+        <h1>{title}</h1>
+        <p id='description'>{description}</p>
+        <a id='view-site' href={siteUrl}>View Site</a>
+        <a id='github' href={repoUrl}>GitHub Repo</a>
+      </div>
     </div>
   );
 }
 
-export default Project;
+const ProjectRight = ({ image, title, description, siteUrl, repoUrl }) => {
+  return (
+    <div className="project">
+      <div className='project-content'>
+        <h1>{title}</h1>
+        <p id='description'>{description}</p>
+        <a id='view-site' href={siteUrl}>View Site</a>
+        <a id='github' href={repoUrl}>GitHub Repo</a>
+      </div>
+      <img className='port-image' src={image} alt={title} />
+    </div>
+  );
+}
+
+export { ProjectLeft, ProjectRight };
