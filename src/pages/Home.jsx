@@ -27,7 +27,7 @@ const Home = () => {
                 </div>
             </section>
             <section className="recent-work-home">
-                <h1>Recent Work</h1>
+                <h1 className='recent-work'>Recent Work</h1>
                 <div className='work-container'>
                     <div>
                         <a href="https://rooms-3226fb27d847.herokuapp.com/login">

@@ -5,6 +5,7 @@
     background-image: url(/assets/port-banner.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 
@@ -36,4 +37,37 @@ h1{
 .job {
     font-size: 30px;
     margin: 0;
+}
+
+@media (max-width: 1300px) {
+    .pageTitle {
+        margin-left: 0px;
+    }
+
+    .hero {
+        background-position: 20%;
+    }
+        
+}
+
+@media (max-width: 650px) {
+    .pageTitle {
+        display: flex;
+        flex-direction: column;
+        margin-top: 430px;
+    }
+
+    .hello  {
+        font-size: 40px;
+    }
+
+    .name  {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 471px) {
+    .pageTitle {
+        margin-top: 370px;
+    }
 }

@@ -1,47 +1,52 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
-    margin: 5px;
+  margin: 5px;
 }
 
 /* HOME */
 .skills {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:row;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
-#front-end,  #back-end, #results {
-    margin : 30px;
-    text-align: left;
+#front-end,
+#back-end,
+#results {
+  margin: 30px;
+  text-align: left;
 }
 
 .recent-work-home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column
-}
-.work-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
 }
 
+.work-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
 .imgs-home {
-    margin: 30px;
-    border-radius: 30px;
-    height: 200px;
-    width: 360px;
-    transition: border 0.3s;
-    border: 5px solid transparent;
+  margin: 30px;
+  border-radius: 30px;
+  height: 200px;
+  width: 360px;
+  transition: border 0.3s;
+  border: 5px solid transparent;
 }
 
 .imgs-home:hover {
@@ -50,60 +55,75 @@ h2 {
 
 /* ABOUT ME */
 .about-me {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    width: 70%;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
 }
 
 /* CONTACT */
 
 .form {
-    max-width: 500px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
 
-  label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  input, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-  }
+label {
+  display: block;
+  margin-bottom: 10px;
+}
 
-  .submit-btn {
-    text-align: center;
-  }
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
 
-  button {
-    background-color: gray;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+.submit-btn {
+  text-align: center;
+}
 
-  .contact-text  {
-    text-align: center;
-  }
+button {
+  background-color: gray;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-  /* RESUME */
+.contact-text {
+  text-align: center;
+}
 
-  .resume-text  {
-    text-align: center;
-    margin: 100px auto;
+/* RESUME */
+
+.resume-text {
+  text-align: center;
+  margin: 100px auto;
+}
+
+@media  (max-width: 435px) {
+  .imgs-home {
+    height: 150px;
+    width: 260px;
   }
+}
+
+
+@media  (max-width: 353px) {
+  .recent-work {
+    font-size: 30px;
+  }
+}

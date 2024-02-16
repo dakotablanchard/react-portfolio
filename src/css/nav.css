@@ -15,9 +15,32 @@
     font-size: 30px;
     margin: 20px;
     display: inline;
+    text-align: center;
 }
 
 .nav-link {
     text-decoration: none;
     color: white;
 }
+
+@media (max-width: 1300px) {
+    .nav-tabs {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1160px) {
+    .nav-tabs {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 650px) {
+    .skills  {
+        flex-wrap: wrap;
+    }
+    .nav-tabs {
+        flex-wrap: wrap;
+    }
+}
+
