@@ -3,7 +3,7 @@ Hello! I'm Dakota Blanchard and this is my portfolio site.
 This README will cover site navigation, and technologies used to 
 create the site.
 <br><br>
-Visit the site by clicking [HERE](#) 
+Visit the site by clicking [HERE](https://dakotablanchard.netlify.app) 
 
 ## Table of Contents
  - [Navigation](#navigation)
