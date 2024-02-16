@@ -126,4 +126,15 @@ button {
   .recent-work {
     font-size: 30px;
   }
+  .imgs-home {
+    height: 140px;
+    width: 220px;
+  }
+}
+
+@media  (max-width: 290px) {
+  .imgs-home {
+    height: 100px;
+    width: 140px;
+  }
 }

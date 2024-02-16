@@ -11,6 +11,19 @@
     text-align: center;
 }
 
+.project-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
 .port-image {
     margin: 30px;
     border-radius: 20px;
@@ -29,4 +42,48 @@
 
 #description {
     margin: 20px;
+}
+
+@media (max-width: 1330px) {
+ .project {
+     flex-direction: column;
+     flex-wrap: wrap;
+ }
+
+ .project-right {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+ .port-image {
+    margin: 0px;
+    scale: 0.8;
+ }
+}
+
+@media (max-width: 655px) {
+    .port-image {
+        scale : 0.7;
+    }
+    .project, .project-right {
+        align-content: center;
+    }
+}
+
+@media (max-width: 390px) {
+    .project-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 350px) {
+    .port-image {
+        scale: 0.5;
+    }
+
+    .project-content > h1 {
+        font-size: 40px;
+    }
 }

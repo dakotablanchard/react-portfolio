@@ -9,6 +9,7 @@
     top: 0;
     left: 0;
     right: 0;
+    padding-inline-start: 0px;
 }
 
 .nav-item {
@@ -43,4 +44,6 @@
         flex-wrap: wrap;
     }
 }
+
+
 
